@@ -28,5 +28,14 @@ namespace InventoryManagement_FontEnd.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+        public IActionResult Create()
+        {
+            return View();
+        }
+        [HttpPost]
+        public IActionResult Create( CategoryModel model)
+        {
+            return View();
+        }
     }
 }

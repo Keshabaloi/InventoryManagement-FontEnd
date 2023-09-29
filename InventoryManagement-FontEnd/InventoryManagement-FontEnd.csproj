@@ -11,9 +11,4 @@
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="7.0.9" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Areas\IteamManagement\Data\" />
-    <Folder Include="Areas\IteamManagement\Models\" />
-  </ItemGroup>
-
 </Project>
